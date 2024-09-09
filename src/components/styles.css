@@ -1,0 +1,42 @@
+.text-container {
+  max-height: 200px; /* Adjust this value as needed */
+  overflow-y: auto;  /* Enables vertical scrolling */
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+  padding-right: 16px; /* Space for scrollbar visibility */
+  position: relative; /* Ensure proper positioning for scrollbar */
+}
+
+.text-container::-webkit-scrollbar {
+  width: 8px; /* Adjust scrollbar width */
+}
+
+.text-container::-webkit-scrollbar-thumb {
+  background-color: #2a2e34; /* Dark background for scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for scrollbar thumb */
+}
+
+.text-container::-webkit-scrollbar-track {
+  background-color: transparent; /* Transparent background for scrollbar track */
+}
+
+
+/* styles.css */
+.custom-scrollbar {
+  max-height: 300px; /* Adjust as needed for your design */
+  overflow-x: auto;  /* Allows horizontal scrolling */
+  overflow-y: hidden; /* Prevents vertical scrolling */
+  padding-right: 16px; /* Space for scrollbar visibility */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 8px; /* Adjust scrollbar height */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #2a2e34; /* Dark background for scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for scrollbar thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent; /* Transparent background for scrollbar track */
+}
